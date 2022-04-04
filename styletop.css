@@ -1,0 +1,35 @@
+body {
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+/* For Mobile View */
+@media (max-width: 480px) {
+  body {
+      background-image: url(https://images.pexels.com/photos/1008000/pexels-photo-1008000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  }
+}
+/* For Tablet View */
+@media (min-width: 481px) and (max-width: 1024px) {
+  body {
+    background-image: url(https://images.pexels.com/photos/1008000/pexels-photo-1008000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  }
+}
+/* For Desktop View */
+@media (min-width: 1025px) {
+  body {      
+    background-image: url(https://images.pexels.com/photos/1008000/pexels-photo-1008000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+ }
+}
+.c_f-1{
+  margin-top: 300px;
+  text-align: center;
+  color:white;
+  font-size: larger;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+}
+.c_f-2{
+  margin-top: 272px;
+}
